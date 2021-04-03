@@ -440,7 +440,7 @@ Another example
 
 # Comparison Operators
 
-Comparison between arithmitic
+Comparison between arithmetic
 
     test=# SELECT 1 = 1 ;
      ?column?
@@ -884,6 +884,10 @@ Delete the added constaint
 # Check Constraints
 
 It alow to add a constainst based on a boolean condition
+
+# INNER JOINS
+
+It takes two tables, and return a new records with common data
 
 # Adding new table and using Mackaroo
 

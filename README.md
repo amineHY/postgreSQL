@@ -173,8 +173,9 @@ Another example
 
 # WHERE clause and AND
 
-the where clause alow to filter the data based on condition
-test=# SELECT \* FROM person WHERE gender='Male';
+The where clause alow to filter the data based on condition
+
+    test=# SELECT \* FROM person WHERE gender='Male';
 
     id | first_name | last_name | email | gender | date_of_birth | country_of_birth
     -----+--------------+--------------+--------------------------------------+--------+---------------+------------------

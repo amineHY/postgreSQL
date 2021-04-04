@@ -40,6 +40,13 @@ Data is held by columns and rows, in a form of table
 Other options
 ![](other_databse.png)
 
+# Access Database
+
+You can communicate with postgreSQL database either using a terminal or an IDE, e.g. [DBeaver](https://dbeaver.io/)
+![](tools.png)
+
+For the rest of this article, we will be focusing on using SQL commands from the terminal. Once you master that, it will be easy to use an IDE.
+
 # Connect to postgreSQL database
 
 First, start the postgreSQL engine
@@ -884,6 +891,26 @@ Delete the added constaint
 # Check Constraints
 
 It alow to add a constainst based on a boolean condition
+
+# DELETE and UPDATE
+
+Delete a record from a table
+
+    test=# DELETE FROM person where gender= 'Female' AND country_of_birth = 'England';
+
+Update a record
+
+    test=# UPDATE person SET email = 'ommar@gmail.com' WHERE id = 2011;
+
+    test=# UPDATE person SET first_name='Omar', last_name='Montana', email='Djibril@gmail.com' WHERE id=1;
+
+# On conflict Do Nothing
+
+Handling confliting scenarios
+
+    ON CONFLICT (id) DO NOTHING;
+
+# Upsert
 
 # INNER JOINS
 

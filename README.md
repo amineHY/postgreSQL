@@ -1,15 +1,14 @@
 # Tutorial of PostgreSQL
 
-Postgres is a database engine
+This repo describe a step by step to start using databse with PostgreSQL, it is based on the AmigosCode
+[PostgreSQL Crash Course](https://www.youtube.com/watch?v=qw--VYLpxG4&t=292s).
 
-## SQL
-
-SQL (Structured Query Language) is a programming language to interact with the database
+Briefly, Postgres is a database engine and SQL (Structured Query Language) is a programming language to interact with the database
 
 - it manages data held in a relational database
 - easy to learn
 - very powerful
-- since 1974
+- exist since 1974
 
 Example:
 
@@ -17,10 +16,10 @@ Example:
 
 **NOTE:**
 
-- Each SQL commands must ends with a semicolon ; or it won't be executed
-- SQL commands are written in uppercase
+- Each SQL commands must ends with a semicolon `;` (or it won't be executed)
+- SQL commands are written in UPPERCASE to distinguish them
 
-## Data
+## Data Structure
 
 Data is held by columns and rows, in a form of table
 ![](data_structure.png)
